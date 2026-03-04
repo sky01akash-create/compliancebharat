@@ -1,48 +1,346 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Compliance Bharat - Coming Soon</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #0f172a, #1e3a8a);
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
-        }
-        .box {
-            max-width: 600px;
-        }
-        h1 {
-            font-size: 40px;
-            margin-bottom: 10px;
-        }
-        p {
-            font-size: 18px;
-            opacity: 0.9;
-        }
-        .email {
-            margin-top: 20px;
-            font-size: 14px;
-            opacity: 0.7;
-        }
-    </style>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ComplianceBharat | India Regulatory Compliance Guides</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f5f7fa;
+color:#1f2937;
+}
+
+/* HEADER */
+
+header{
+background:white;
+padding:15px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:1px solid #e5e7eb;
+}
+
+.logo-area img{
+height:60px;
+}
+
+nav a{
+color:#0B1F3A;
+margin-left:25px;
+text-decoration:none;
+font-size:14px;
+font-weight:500;
+}
+
+/* HERO */
+
+.hero{
+padding:80px 10%;
+background:white;
+text-align:center;
+}
+
+.hero h1{
+font-size:36px;
+margin-bottom:20px;
+color:#0B1F3A;
+}
+
+.hero p{
+font-size:18px;
+color:#555;
+}
+
+.hero button{
+margin-top:25px;
+padding:12px 24px;
+border:none;
+background:#1FA971;
+color:white;
+font-size:15px;
+border-radius:4px;
+cursor:pointer;
+}
+
+/* CATEGORY SECTION */
+
+.section{
+padding:60px 10%;
+}
+
+.section h2{
+text-align:center;
+margin-bottom:40px;
+color:#0B1F3A;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:6px;
+box-shadow:0 2px 6px rgba(0,0,0,0.08);
+}
+
+.card h3{
+margin-top:0;
+color:#0B1F3A;
+}
+
+.card ul{
+padding-left:18px;
+}
+
+/* WHY SECTION */
+
+.why{
+background:white;
+padding:60px 10%;
+text-align:center;
+}
+
+.why ul{
+list-style:none;
+padding:0;
+}
+
+.why li{
+margin:10px 0;
+}
+
+/* GUIDES */
+
+.guides{
+background:#f5f7fa;
+padding:60px 10%;
+}
+
+.guides h2{
+text-align:center;
+margin-bottom:30px;
+}
+
+.guides ul{
+max-width:600px;
+margin:auto;
+line-height:1.8;
+}
+
+/* CONTACT */
+
+.contact{
+background:#0B1F3A;
+color:white;
+padding:50px 10%;
+text-align:center;
+}
+
+/* FOOTER */
+
+footer{
+background:#071527;
+color:#aaa;
+text-align:center;
+padding:20px;
+font-size:13px;
+}
+
+</style>
+
 </head>
+
 <body>
-    <div class="box">
-        <h1>Compliance Bharat</h1>
-        <p>Simplifying India's Commercial & Economic Regulations</p>
-        <h2>🚀 Website Coming Soon</h2>
-        <p>We are building something valuable for exporters, businesses & professionals.</p>
-        <div class="email">
-            Contact: sky01.akash@gmail.com
-        </div>
-    </div>
+
+<header>
+
+<div class="logo-area">
+<img src="logo.png" alt="ComplianceBharat Logo">
+</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="iec-registration.html">IEC Registration</a>
+<a href="iec-modification.html">Modify IEC</a>
+<a href="link-existing-iec.html">Link IEC</a>
+<a href="iec-suspension.html">IEC Suspension</a>
+<a href="iec-faq.html">FAQ</a>
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<h1>India’s Practical Guide to Commercial & Financial Compliance</h1>
+
+<p>
+Structured guidance on DGFT, GST, MCA, RBI, IFSCA and other regulatory frameworks.
+</p>
+
+<button onclick="location.href='iec-registration.html'">
+Explore IEC Guides
+</button>
+
+</section>
+
+
+
+<section class="section">
+
+<h2>Core Compliance Categories</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Foreign Trade & DGFT</h3>
+<ul>
+<li><a href="iec-registration.html">IEC Registration</a></li>
+<li>IEC Renewal</li>
+<li>DGFT Deficiency Letters</li>
+<li>FTP Clause Explanations</li>
+<li>Portal Errors</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>GST & Indirect Tax</h3>
+<ul>
+<li>GST Registration</li>
+<li>GSTR Filing</li>
+<li>Refund & LUT</li>
+<li>GST Notices</li>
+<li>ITC Issues</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Corporate Compliance (MCA)</h3>
+<ul>
+<li>Company Incorporation</li>
+<li>Annual Return Filing</li>
+<li>DIR-3 KYC</li>
+<li>ROC Notices</li>
+<li>IEPF-5 Filing</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>RBI & FEMA</h3>
+<ul>
+<li>FDI Reporting</li>
+<li>ODI Compliance</li>
+<li>Export Realisation</li>
+<li>ECB Compliance</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Financial Authorities</h3>
+<ul>
+<li>IFSCA Compliance</li>
+<li>IRDAI Regulations</li>
+<li>AMFI Distributor Rules</li>
+<li>Fund Compliance</li>
+</ul>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="guides">
+
+<h2>Popular IEC Guides</h2>
+
+<ul>
+
+<li>
+<a href="iec-registration.html">
+How to Apply for Import Export Code (IEC)
+</a>
+</li>
+
+<li>
+<a href="iec-modification.html">
+How to Modify IEC Details
+</a>
+</li>
+
+<li>
+<a href="link-existing-iec.html">
+How to Link Existing IEC with DGFT Portal
+</a>
+</li>
+
+<li>
+<a href="iec-suspension.html">
+How to Revoke IEC Suspension
+</a>
+</li>
+
+<li>
+<a href="iec-faq.html">
+IEC Frequently Asked Questions
+</a>
+</li>
+
+</ul>
+
+</section>
+
+
+
+<section class="why">
+
+<h2>Why ComplianceBharat</h2>
+
+<ul>
+<li>✔ Practical step-by-step regulatory guides</li>
+<li>✔ Simplified explanation of government circulars</li>
+<li>✔ Structured compliance resources</li>
+<li>✔ Focus on real business problems</li>
+<li>✔ Updated regulatory insights</li>
+</ul>
+
+</section>
+
+
+
+<section class="contact">
+
+<h2>Contact ComplianceBharat</h2>
+
+<p>
+For collaboration, compliance queries or professional consultation.
+</p>
+
+<p>
+Email: info@compliancebharat.com
+</p>
+
+</section>
+
+
+<footer>
+
+© 2026 ComplianceBharat.com — Independent Compliance Knowledge Platform
+
+</footer>
+
+
 </body>
 </html>
